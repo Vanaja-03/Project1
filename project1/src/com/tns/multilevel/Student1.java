@@ -11,14 +11,22 @@ public class Student1 extends Citizen {
 		this.id=id;
 		this.board=board;
 	}
-	
+	public Student1(String name,int population) {
+		super(name,population);
+		//TODO Auto-generated constructor stub
 	
 	}
-	
-	
-		
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getBoard() {
+		return board;
+	}
+	public void setBoard(String board) {
+		this.board = board;
 	}
 	}
-	
 
-}
